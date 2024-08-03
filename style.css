@@ -39,7 +39,7 @@ header > h1 {
     padding-bottom: 0.5rem;
 }
 
-.name > textarea {
+.name > input {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5rem;
     padding: 0.5rem;
@@ -65,7 +65,7 @@ header > h1 {
     padding-bottom: 0.5rem;
 }
 
-.email > textarea {
+.email > input {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5rem;
     padding: 0.5rem;
