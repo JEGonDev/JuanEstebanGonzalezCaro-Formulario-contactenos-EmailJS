@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript">emailjs.init('g4gjsQmQHPVVmvgNI')</script> 
 </head>
 <body>
     <header>
         <h1>Formulario de contacto</h1>
     </header>
-    <section class="form" id="form">
+    <form id="form" class="form">
         <div class="name">
             <label for="name">Nombre:</label>
             <textarea placeholder="Nombre" id="username"></textarea>
@@ -20,7 +21,7 @@
 
         <div class="email">
             <label for="name">Correo electrónico:</label>
-            <textarea placeholder="Correo electrónico" id="username"></textarea>
+            <textarea placeholder="Correo electrónico" id="email"></textarea>
         </div>
 
         <div class="message">
@@ -28,10 +29,10 @@
             <textarea placeholder="Digite su mensaje aquí..." id="message"></textarea>
         </div>
 
-        <div class="button-submit">
+        <div class="button-submit" id="button-submit">
             <button>Enviar</button>
         </div>
-    </section>
+    </form>
     <script src="app.js"></script>
 </body>
 </html>
